@@ -1,0 +1,1 @@
+export * from './lib/diagnostic-detail/diagnostic-detail.component'

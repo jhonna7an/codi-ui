@@ -1,0 +1,11 @@
+.active {
+  @apply bg-secondary-4
+}
+
+.active .text-active {
+  @apply text-primary-2
+}
+
+.active .svg-active {
+  @apply fill-primary-2
+}

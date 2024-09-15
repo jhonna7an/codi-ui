@@ -1,0 +1,629 @@
+{
+  "code": "0",
+  "message": "Diagnóstico realizado con éxito.",
+  "reason": "",
+  "startDateTime": "09/14/2024 14:20:00",
+  "endDateTime": "09/14/2024 14:20:14",
+  "characteristic": [
+      {
+          "name": "diagnosticId",
+          "value": "e40e4d23875dad5ec0346f9880856109aaa14e4b"
+      },
+      {
+          "name": "minervaId",
+          "value": "5741846"
+      },
+      {
+          "name": "subscriberId",
+          "value": "9001718"
+      }
+  ],
+  "outage": {
+      "code": "0",
+      "descr": "Sin incidencias reportadas.",
+      "message": null
+  },
+  "product": [
+      {
+          "id": "1",
+          "name": "Internet",
+          "code": "2",
+          "descr": "Se detectó una advertencia en al menos un equipo",
+          "characteristic": [
+              {
+                  "name": "type",
+                  "value": "internet"
+              },
+              {
+                  "name": "typeId",
+                  "value": "1"
+              }
+          ],
+          "resource": [
+              {
+                  "code": "2",
+                  "message": "Advertencia en acceso y servicio: \n Advertencias detectadas en:  \n Capacidad insuficiente en downstream QAM por cantidad de portadoras \n Capacidad insuficiente en downstream QAM por cantidad de portadoras \n Capacidad insuficiente en downstream QAM por cantidad de portadoras \n Parámetros de velocidad (Uso de memoria/Uptime elevado)",
+                  "name": "SAGEM F@ST3686",
+                  "characteristic": [
+                      {
+                          "name": "id_ref",
+                          "value": "9f3defad81c17eff9c77a13affc85913a6075ece"
+                      },
+                      {
+                          "name": "componentIdCorreo",
+                          "value": "323936747"
+                      },
+                      {
+                          "name": "outageBloqueante",
+                          "value": "false"
+                      },
+                      {
+                          "name": "esEquipoTR",
+                          "value": "true"
+                      },
+                      {
+                          "name": "infoWifi",
+                          "value": ""
+                      },
+                      {
+                          "name": "ConfigWifiGenerico",
+                          "value": "NO-OK"
+                      },
+                      {
+                          "name": "TrAlcanzable",
+                          "value": "NO-OK"
+                      },
+                      {
+                          "name": "MapaRed",
+                          "value": "NO-OK"
+                      },
+                      {
+                          "name": "AnalizadorWifi",
+                          "value": "NO-OK"
+                      },
+                      {
+                          "name": "ConfigWifi",
+                          "value": "NO-OK"
+                      },
+                      {
+                          "name": "Reboot",
+                          "value": "NO-OK"
+                      },
+                      {
+                          "name": "ResetFactoryDefault",
+                          "value": "NO-OK"
+                      },
+                      {
+                          "name": "DeviceInformation",
+                          "value": "NO-OK"
+                      },
+                      {
+                          "name": "configWifiHfc",
+                          "value": "OK"
+                      },
+                      {
+                          "name": "ip",
+                          "value": "181.84.200.162"
+                      },
+                      {
+                          "name": "firmware",
+                          "value": "CVA-SIP_3.661.0"
+                      },
+                      {
+                          "name": "nodo",
+                          "value": "ALM206D"
+                      },
+                      {
+                          "name": "cmts",
+                          "value": "ARCCALM0CMT006"
+                      },
+                      {
+                          "name": "classServiceId",
+                          "value": "52"
+                      },
+                      {
+                          "name": "tipoEquipo",
+                          "value": "CableModem WiFi"
+                      },
+                      {
+                          "name": "serviceNumber",
+                          "value": "B8EE0E309820"
+                      },
+                      {
+                          "name": "componentId",
+                          "value": "323936748"
+                      },
+                      {
+                          "name": "velocidad",
+                          "value": "100"
+                      },
+                      {
+                          "name": "macAddress",
+                          "value": "B8EE0E309820"
+                      },
+                      {
+                          "name": "classServiceType",
+                          "value": "HFC"
+                      },
+                      {
+                          "name": "nroSerie",
+                          "value": "DM1716504000772"
+                      },
+                      {
+                          "name": "marca",
+                          "value": "SAGEM"
+                      },
+                      {
+                          "name": "modelo",
+                          "value": "F@ST3686"
+                      },
+                      {
+                          "name": "completedBy",
+                          "value": "Lisy"
+                      },
+                      {
+                          "name": "message",
+                          "value": "Advertencia en acceso y servicio"
+                      },
+                      {
+                          "name": "solvedByDtb",
+                          "value": "true"
+                      },
+                      {
+                          "name": "cei",
+                          "value": "{\"data\":[{\"period\":\"202436\",\"mac\":\"B8EE0E309820\",\"id_subscripcion\":\"77708115\",\"direccion_calle\":\"HIDALGO\",\"direccion_altura\":\"561\",\"geo_region\":\"AMBA\",\"geo_sub_region\":\"CAPITAL SUR\",\"geo_base_operativa\":\"ALMAGRO\",\"nodo\":\"ALM206\",\"sector_operativo\":\"ALM206AD\",\"perfil\":\"streaming\",\"consumo\":\"Mid\",\"docsis\":\"3.0\",\"fraude\":\"NO\",\"cei\":\"90.00\",\"recall_cei\":[100,100,100,100,100,83,100,79,90,90,90,90],\"recall_observado_saludred\":[0,0,0,0,0,0,0,25,0,0,0,0],\"recall_observado_ocupacion\":[0,0,0,0,0,0,0,0,0,0,0,0],\"recall_observado_preq\":[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],\"recall_observado_latencia\":[0,0,0,0,0,0,0,0,0,0,0,0],\"recall_observado_dano_open\":[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],\"recall_observado_partial\":[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],\"recall_observado_fullb\":[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],\"recall_observado_estabilidad\":[0,0,0,0,0,50,0,0,0,0,0,0]}]}"
+                      },
+                      {
+                          "name": "otrasSoluciones",
+                          "value": "[{\"Name\":\"Cable_cortado\",\"Descr\":\"Cable cortado\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Cambio_de_boca_de_lugar\",\"Descr\":\"Cambio de boca de lugar\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Cliente_no_quiere_realizar_chequeos\",\"Descr\":\"Cliente no quiere realizar chequeos\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"No_puede_continuar_con_los_chequeos\",\"Descr\":\"No puede continuar con los chequeos\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Pedido_de_supervisor\",\"Descr\":\"Pedido de supervisor\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Se_corto_call\",\"Descr\":\"Se corto call\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Solicitar_auditoria\",\"Descr\":\"Solicitar auditoria\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Internet-RedesVecinas\",\"Descr\":\"Internet - Optimización WiFi\",\"Href\":\"type=nootb&isAutomatic=True\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"True\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"ChatGPT-Diagnostico-Docsis\",\"Descr\":\"ChatGPT - Diagnostico Docsis\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Internet-HFC-EquipoNoEnciende\",\"Descr\":\"Internet HFC - Equipo no enciende\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"ChatGPT-Diagnostico-Wifi\",\"Descr\":\"Internet - GPT - Diagnóstico WiFi\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"InternetHFC-ReinicioTR\",\"Descr\":\"Reinicio modulo TR\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Internet_HFC_-_Ve_su_red_pero_no_conecta\",\"Descr\":\"Internet-Ve su red pero no conecta\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Internet_HFC_-_No_ve_su_red\",\"Descr\":\"Internet-No ve su red\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Internet-RecalculoFAN\",\"Descr\":\"Internet - Recalculo FAN\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"GestionCorporativo-IPFijaGestionGeneral\",\"Descr\":\"Internet HFC - Gestión General IP Fija\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"ChatGPT-Diagnostico-Wifi_nivel1\",\"Descr\":\"Internet - GPT - Diagnóstico WiFi - Nivel 1\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"ChatGPT-Repregunta\",\"Descr\":\"Internet - GPT - Clasificador Inconvenientes WiFi\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Internet-FirmwareDesactualizado_CODICB\",\"Descr\":\"Internet - Actualización de Firmware\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Disney-MenuPrincipal\",\"Descr\":\"Disney+ - Inconvenientes tecnicos\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"InternetHFC-InconvenienteApp\",\"Descr\":\"Internet HFC - Inconveniente con APP Externa\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"InternetHFC-ConfigurarTipoDeIP\",\"Descr\":\"Internet HFC - Configurar tipo de IP\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow-AdministracionUsuarios\",\"Descr\":\"Administración de usuario de cliente\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Internet-ConfiguracionWiFi-CODI\",\"Descr\":\"Internet-ConfiguracionWiFi-CODI\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Internet_HFC_-_Inconvenientes_WiFi\",\"Descr\":\"Internet HFC -  Inconvenientes y Configuración WiFi\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Internet_HFC_-_Menu_principal\",\"Descr\":\"Internet HFC -  Menú Principal\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Internet_HFC_-_No_navega\",\"Descr\":\"Internet HFC - No navega\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Internet_HFC_-_No_navega_en_sitio_particular\",\"Descr\":\"Internet HFC - No navega en sitio particular\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Internet-ConfiguracionWiFi-DIF\",\"Descr\":\"Configuración WiFi Avanzada\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Internet-FactoryReset\",\"Descr\":\"Internet-FactoryReset\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"InternetHFC-ServicioMalProvisionado\",\"Descr\":\"InternetHFC-ServicioMalProvisionado\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"InternetHFC-ErrorPoliticaIPSTB\",\"Descr\":\"Internet HFC - Error en politica IPSTB\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"InternetHFC-NoConectaVPN\",\"Descr\":\"Internet HFC - No conecta VPN\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"InternetHFC-CMnoApto\",\"Descr\":\"Internet HFC - CM no apto\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Portal_de_autogestion_-_Error_de_logueo\",\"Descr\":\"Sitio Clientes - Inconvenientes de logueo\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Portal_de_autogestion_-_Error_de_registracion\",\"Descr\":\"Sitio Clientes - Inconvenientes de registracion\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Portal_de_autogestion_-_Menu_principal\",\"Descr\":\"Sitio Clientes - Inconvenientes tecnicos\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]}]"
+                      }
+                  ],
+                  "recommendation": [
+                      {
+                          "name": "Internet-Reboot",
+                          "descr": "Internet-Reboot",
+                          "href": "type=nootb&isAutomatic=False",
+                          "characteristic": [
+                              {
+                                  "name": "type",
+                                  "value": "nootb"
+                              },
+                              {
+                                  "name": "isAutomatic",
+                                  "value": "False"
+                              },
+                              {
+                                  "name": "manager",
+                                  "value": "FLOWABLE"
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Internet_HFC_-_Cortes",
+                          "descr": "Internet HFC - Cortes",
+                          "href": "type=nootb&isAutomatic=False",
+                          "characteristic": [
+                              {
+                                  "name": "type",
+                                  "value": "nootb"
+                              },
+                              {
+                                  "name": "isAutomatic",
+                                  "value": "False"
+                              },
+                              {
+                                  "name": "manager",
+                                  "value": "FLOWABLE"
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Internet_HFC_-_Lentitud",
+                          "descr": "Internet HFC - Lentitud",
+                          "href": "type=nootb&isAutomatic=False",
+                          "characteristic": [
+                              {
+                                  "name": "type",
+                                  "value": "nootb"
+                              },
+                              {
+                                  "name": "isAutomatic",
+                                  "value": "False"
+                              },
+                              {
+                                  "name": "manager",
+                                  "value": "FLOWABLE"
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "id": "2",
+          "name": "Video",
+          "code": "-1",
+          "descr": "Se detectaron inconvenientes en al menos un equipo",
+          "characteristic": [
+              {
+                  "name": "type",
+                  "value": "video"
+              },
+              {
+                  "name": "typeId",
+                  "value": "2"
+              }
+          ],
+          "resource": [
+              {
+                  "code": "-1",
+                  "message": "Inconveniente en acceso y servicio: \n Inconvenientes críticos detectados en:  \n No se pudo obtener información sobre el estado del equipo \n Provisión Opendoors (Equipo no aprovisionado)",
+                  "name": "DECO HD",
+                  "characteristic": [
+                      {
+                          "name": "id_ref",
+                          "value": "f6b75b4a3f97e44cbc4a3679386ab2719224ce95"
+                      },
+                      {
+                          "name": "outageBloqueante",
+                          "value": "false"
+                      },
+                      {
+                          "name": "infoWifi",
+                          "value": ""
+                      },
+                      {
+                          "name": "classServiceId",
+                          "value": "2"
+                      },
+                      {
+                          "name": "tipoEquipo",
+                          "value": "DECO HD"
+                      },
+                      {
+                          "name": "serviceNumber",
+                          "value": "PAER01219948"
+                      },
+                      {
+                          "name": "componentId",
+                          "value": "323936730"
+                      },
+                      {
+                          "name": "nroSerie",
+                          "value": "PAER01219948"
+                      },
+                      {
+                          "name": "classServiceType",
+                          "value": "DECO"
+                      },
+                      {
+                          "name": "vod",
+                          "value": "true"
+                      },
+                      {
+                          "name": "macAddress",
+                          "value": ""
+                      },
+                      {
+                          "name": "marca",
+                          "value": ""
+                      },
+                      {
+                          "name": "modelo",
+                          "value": ""
+                      },
+                      {
+                          "name": "lisyNotCompleted",
+                          "value": "true"
+                      },
+                      {
+                          "name": "message",
+                          "value": "Inconveniente en acceso y servicio"
+                      },
+                      {
+                          "name": "solvedByDtb",
+                          "value": "true"
+                      },
+                      {
+                          "name": "otrasSoluciones",
+                          "value": "[{\"Name\":\"Disney-MenuPrincipal\",\"Descr\":\"Disney+ - Inconvenientes tecnicos\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow-AdministracionUsuarios\",\"Descr\":\"Administración de usuario de cliente\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"CATV_Analogico_-_Sin_senial_-_Lluvia\",\"Descr\":\"CATV Analogico - Sin senial - Lluvia\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Deco_HD_-_Barras_verticales\",\"Descr\":\"Deco HD - Barras verticales\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Deco_HD_-_Grilla_incompleta_Saltea_canales\",\"Descr\":\"Deco HD - Grilla incompleta Saltea canales\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Deco_HD_-_Imagen_pixelada\",\"Descr\":\"Deco HD - Imagen pixelada\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Deco_HD_-_Inconvenientes_con_el_control_remoto\",\"Descr\":\"Deco HD - Inconvenientes con el control remoto\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Deco_HD_-_Menu_principal\",\"Descr\":\"Deco HD - Menu principal\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Deco_HD_-_No_enciende_-_Se_reinicia\",\"Descr\":\"Deco HD - No enciende - Se reinicia\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Deco_HD_-_Pantalla_Azul-Negra\",\"Descr\":\"Deco HD - Pantalla Azul-Negra\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Deco_HD_-_Problemas_con_el_audio\",\"Descr\":\"Deco HD - Problemas con el audio\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Deco_HD_-_Problemas_con_subtitulos\",\"Descr\":\"Deco HD - Problemas con subtitulos\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"DecoHD-InconvenientesConLaGuia\",\"Descr\":\"Deco HD - Inconvenientes con la guia\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Portal_de_autogestion_-_Error_de_logueo\",\"Descr\":\"Sitio Clientes - Inconvenientes de logueo\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Portal_de_autogestion_-_Error_de_registracion\",\"Descr\":\"Sitio Clientes - Inconvenientes de registracion\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Portal_de_autogestion_-_Menu_principal\",\"Descr\":\"Sitio Clientes - Inconvenientes tecnicos\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Cable_cortado\",\"Descr\":\"Cable cortado\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Cambio_de_boca_de_lugar\",\"Descr\":\"Cambio de boca de lugar\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Cliente_no_quiere_realizar_chequeos\",\"Descr\":\"Cliente no quiere realizar chequeos\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"No_puede_continuar_con_los_chequeos\",\"Descr\":\"No puede continuar con los chequeos\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Pedido_de_supervisor\",\"Descr\":\"Pedido de supervisor\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Se_corto_call\",\"Descr\":\"Se corto call\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Solicitar_auditoria\",\"Descr\":\"Solicitar auditoria\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"VOD_-_Imagen_Pixelada_Congelada\",\"Descr\":\"VOD - Imagen Pixelada Congelada\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"VOD_-_Inconveniente_con_el_audio\",\"Descr\":\"VOD - Inconveniente con el audio\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"VOD_-_Inconveniente_con_subtitulos\",\"Descr\":\"VOD - Inconveniente con subtitulos\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"VOD_-_Menu_principal\",\"Descr\":\"VOD - Menu principal\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"VOD_-_No_ingresa_al_canal_1\",\"Descr\":\"VOD - No ingresa al canal 1\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"VOD_-_No_puede_realizar_compras\",\"Descr\":\"VOD - No puede realizar compras\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"VOD_-_No_reproduce_contenido\",\"Descr\":\"VOD - No reproduce contenido\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"VOD_-_No_responde_Trick_Mode\",\"Descr\":\"VOD - No responde Trick Mode\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"VOD_-_Placa_Para_suscribirse\",\"Descr\":\"VOD - Placa Para suscribirse\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"DecoHD-BlanqueoPIN-ControlParental\",\"Descr\":\"Deco HD - Control parental - Configuración y Blanqueo PIN\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]}]"
+                      }
+                  ],
+                  "recommendation": [
+                      {
+                          "name": "Deco_HD_-_Placa_en_pantalla",
+                          "descr": "Deco HD - Placa en pantalla",
+                          "href": "type=nootb&isAutomatic=False",
+                          "characteristic": [
+                              {
+                                  "name": "type",
+                                  "value": "nootb"
+                              },
+                              {
+                                  "name": "isAutomatic",
+                                  "value": "False"
+                              },
+                              {
+                                  "name": "manager",
+                                  "value": "FLOWABLE"
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Video-RecalculoFAN",
+                          "descr": "Video - Recalculo FAN",
+                          "href": "type=nootb&isAutomatic=False",
+                          "characteristic": [
+                              {
+                                  "name": "type",
+                                  "value": "nootb"
+                              },
+                              {
+                                  "name": "isAutomatic",
+                                  "value": "False"
+                              },
+                              {
+                                  "name": "manager",
+                                  "value": "FLOWABLE"
+                              }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "code": "0",
+                  "message": "Sin inconvenientes detectados",
+                  "name": "ARRIS Group, Inc. DCX-4220",
+                  "characteristic": [
+                      {
+                          "name": "id_ref",
+                          "value": "4ff56024f89bf9f2ab8adb352f01bdaf191223ee"
+                      },
+                      {
+                          "name": "outageBloqueante",
+                          "value": "false"
+                      },
+                      {
+                          "name": "esEquipoTR",
+                          "value": "false"
+                      },
+                      {
+                          "name": "infoWifi",
+                          "value": ""
+                      },
+                      {
+                          "name": "nodo",
+                          "value": "ALM206D"
+                      },
+                      {
+                          "name": "cmts",
+                          "value": "ARCCALM0CMT006"
+                      },
+                      {
+                          "name": "classServiceId",
+                          "value": "3047"
+                      },
+                      {
+                          "name": "tipoEquipo",
+                          "value": "Deco Hibrido"
+                      },
+                      {
+                          "name": "serviceNumber",
+                          "value": "M11747TL2707"
+                      },
+                      {
+                          "name": "componentId",
+                          "value": "1136106777"
+                      },
+                      {
+                          "name": "nroSerie",
+                          "value": "M11747TL2707"
+                      },
+                      {
+                          "name": "classServiceType",
+                          "value": "DECO"
+                      },
+                      {
+                          "name": "vod",
+                          "value": "false"
+                      },
+                      {
+                          "name": "macAddress",
+                          "value": "5819F829714B"
+                      },
+                      {
+                          "name": "marca",
+                          "value": "ARRIS Group, Inc."
+                      },
+                      {
+                          "name": "modelo",
+                          "value": "DCX-4220"
+                      },
+                      {
+                          "name": "completedBy",
+                          "value": "Lisy"
+                      },
+                      {
+                          "name": "message",
+                          "value": "Sin inconvenientes detectados"
+                      },
+                      {
+                          "name": "solvedByDtb",
+                          "value": "true"
+                      },
+                      {
+                          "name": "otrasSoluciones",
+                          "value": "[{\"Name\":\"Disney-MenuPrincipal\",\"Descr\":\"Disney+ - Inconvenientes tecnicos\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow-AdministracionUsuarios\",\"Descr\":\"Administración de usuario de cliente\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"CATV_Analogico_-_Sin_senial_-_Lluvia\",\"Descr\":\"CATV Analogico - Sin senial - Lluvia\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Portal_de_autogestion_-_Error_de_logueo\",\"Descr\":\"Sitio Clientes - Inconvenientes de logueo\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Portal_de_autogestion_-_Error_de_registracion\",\"Descr\":\"Sitio Clientes - Inconvenientes de registracion\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Portal_de_autogestion_-_Menu_principal\",\"Descr\":\"Sitio Clientes - Inconvenientes tecnicos\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Cable_cortado\",\"Descr\":\"Cable cortado\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Cambio_de_boca_de_lugar\",\"Descr\":\"Cambio de boca de lugar\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Cliente_no_quiere_realizar_chequeos\",\"Descr\":\"Cliente no quiere realizar chequeos\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"No_puede_continuar_con_los_chequeos\",\"Descr\":\"No puede continuar con los chequeos\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Pedido_de_supervisor\",\"Descr\":\"Pedido de supervisor\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Se_corto_call\",\"Descr\":\"Se corto call\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Solicitar_auditoria\",\"Descr\":\"Solicitar auditoria\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_Box_-_Error_con_funcionalidades\",\"Descr\":\"Flow Box - Error con funcionalidades\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_Box_-_Grilla_incompleta_-_Saltea_canales\",\"Descr\":\"Flow Box - Grilla incompleta - Saltea canales\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_Box_-_Imagen_entre_barras\",\"Descr\":\"Flow Box - Imagen entre barras\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_Box_-_Imagen_pixelada\",\"Descr\":\"Flow Box - Imagen pixelada\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_Box_-_Inconveniente_con_grabaciones\",\"Descr\":\"Flow Box - Inconveniente con grabaciones\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_Box_-_Inconvenientes_con_aplicaciones\",\"Descr\":\"Flow Box - Inconvenientes con aplicaciones\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_Box_-_Inconvenientes_con_el_control_remoto\",\"Descr\":\"Flow Box - Inconvenientes con el control remoto\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_Box_-_No_enciende_-_Se_reinicia\",\"Descr\":\"Flow Box - No enciende - Se reinicia\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_Box_-_Pantalla_azul_y-o_verificar_cable_de_senal\",\"Descr\":\"Flow Box - Pantalla azul y-o verificar cable de senal\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_Box_-_Pantalla_en_negro\",\"Descr\":\"Flow Box - Pantalla en negro\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_Box_-_Placa_en_pantalla\",\"Descr\":\"Flow Box - Placa en pantalla\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_Box_-_Placa_S1039\",\"Descr\":\"Flow Box - Placa S1039\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_Box_-_Problemas_con_el_audio\",\"Descr\":\"Flow Box - Problemas con el audio\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_Box_-_Problemas_con_guia_de_programacion\",\"Descr\":\"Flow Box - Problemas con guia de programacion\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_Box_-_Problemas_con_subtitulos\",\"Descr\":\"Flow Box - Problemas con subtitulos\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"FlowBox-PantallaEnNegro-ErrorFuncionalidades\",\"Descr\":\"Flow Box - Pantalla en negro - Error con funcionalidades\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Video-RecalculoFAN\",\"Descr\":\"Video - Recalculo FAN\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_Box_-_Reboot\",\"Descr\":\"Flow Box\u00A0 - Reboot\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]}]"
+                      }
+                  ],
+                  "recommendation": [
+                      {
+                          "name": "Flow_Box_-_Menu_principal",
+                          "descr": "Flow Box - Menu principal",
+                          "href": "type=nootb&isAutomatic=False",
+                          "characteristic": [
+                              {
+                                  "name": "type",
+                                  "value": "nootb"
+                              },
+                              {
+                                  "name": "isAutomatic",
+                                  "value": "False"
+                              },
+                              {
+                                  "name": "manager",
+                                  "value": "FLOWABLE"
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "id": "4",
+          "name": "Flow",
+          "code": "0",
+          "descr": "Sin inconvenientes detectados",
+          "characteristic": [
+              {
+                  "name": "type",
+                  "value": "flow"
+              },
+              {
+                  "name": "typeId",
+                  "value": "4"
+              }
+          ],
+          "resource": [
+              {
+                  "code": "0",
+                  "message": "Sin inconvenientes detectados",
+                  "name": "FLOW APP",
+                  "characteristic": [
+                      {
+                          "name": "id_ref",
+                          "value": "9468d1ee609b49deededdcaa5233004ad54ad761"
+                      },
+                      {
+                          "name": "outageBloqueante",
+                          "value": "false"
+                      },
+                      {
+                          "name": "infoWifi",
+                          "value": ""
+                      },
+                      {
+                          "name": "nroSerie",
+                          "value": ""
+                      },
+                      {
+                          "name": "macAddress",
+                          "value": ""
+                      },
+                      {
+                          "name": "marca",
+                          "value": "FLOW"
+                      },
+                      {
+                          "name": "modelo",
+                          "value": "APP"
+                      },
+                      {
+                          "name": "tipoEquipo",
+                          "value": "FlowApp"
+                      },
+                      {
+                          "name": "classServiceId",
+                          "value": "777"
+                      },
+                      {
+                          "name": "componentId",
+                          "value": "9468d1ee609b49deededdcaa5233004ad54ad761"
+                      },
+                      {
+                          "name": "classServiceType",
+                          "value": "FICTICIO"
+                      },
+                      {
+                          "name": "completedBy",
+                          "value": "Ficticio"
+                      },
+                      {
+                          "name": "message",
+                          "value": "Sin inconvenientes detectados"
+                      },
+                      {
+                          "name": "solvedByDtb",
+                          "value": "true"
+                      },
+                      {
+                          "name": "otrasSoluciones",
+                          "value": "[{\"Name\":\"Disney-MenuPrincipal\",\"Descr\":\"Disney+ - Inconvenientes tecnicos\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow-AdministracionUsuarios\",\"Descr\":\"Administración de usuario de cliente\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Portal_de_autogestion_-_Error_de_logueo\",\"Descr\":\"Sitio Clientes - Inconvenientes de logueo\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Portal_de_autogestion_-_Error_de_registracion\",\"Descr\":\"Sitio Clientes - Inconvenientes de registracion\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Portal_de_autogestion_-_Menu_principal\",\"Descr\":\"Sitio Clientes - Inconvenientes tecnicos\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Cable_cortado\",\"Descr\":\"Cable cortado\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Cambio_de_boca_de_lugar\",\"Descr\":\"Cambio de boca de lugar\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"No_puede_continuar_con_los_chequeos\",\"Descr\":\"No puede continuar con los chequeos\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Se_corto_call\",\"Descr\":\"Se corto call\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_App_-_Errores_de_reproduccion\",\"Descr\":\"Flow App - Errores de reproduccion\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_App_-_Inconveniente_con_grabaciones\",\"Descr\":\"Flow App - Inconveniente con grabaciones\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_App_-_Inconvenientes_con_app_Smart_TV\",\"Descr\":\"Flow App - Inconvenientes con app Smart TV\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_App_-_Inconvenientes_con_Chromecast\",\"Descr\":\"Flow App - Inconvenientes con Chromecast\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_App_-_Inconvenientes_con_Funcionalidades\",\"Descr\":\"Flow App - Inconvenientes con Funcionalidades\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_App_-_Inconvenientes_con_la_Grilla\",\"Descr\":\"Flow App - Inconvenientes con la Grilla\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]},{\"Name\":\"Flow_App_-_Inconvenientes_de_Activacion\",\"Descr\":\"Flow App - Inconvenientes de Activacion\",\"Href\":\"type=nootb&isAutomatic=False\",\"Characteristic\":[{\"name\":\"type\",\"value\":\"nootb\"},{\"name\":\"isAutomatic\",\"value\":\"False\"},{\"name\":\"manager\",\"value\":\"FLOWABLE\"}]}]"
+                      }
+                  ],
+                  "recommendation": [
+                      {
+                          "name": "Flow-GestionGeneral",
+                          "descr": "Flow App - Configuraciones",
+                          "href": "type=nootb&isAutomatic=False",
+                          "characteristic": [
+                              {
+                                  "name": "type",
+                                  "value": "nootb"
+                              },
+                              {
+                                  "name": "isAutomatic",
+                                  "value": "False"
+                              },
+                              {
+                                  "name": "manager",
+                                  "value": "FLOWABLE"
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Flow_App_-_Inconvenientes_de_Logueo",
+                          "descr": "Flow App - Inconvenientes de Logueo",
+                          "href": "type=nootb&isAutomatic=False",
+                          "characteristic": [
+                              {
+                                  "name": "type",
+                                  "value": "nootb"
+                              },
+                              {
+                                  "name": "isAutomatic",
+                                  "value": "False"
+                              },
+                              {
+                                  "name": "manager",
+                                  "value": "FLOWABLE"
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Flow_App_-_Menu_principal",
+                          "descr": "Flow App - Menu principal",
+                          "href": "type=nootb&isAutomatic=False",
+                          "characteristic": [
+                              {
+                                  "name": "type",
+                                  "value": "nootb"
+                              },
+                              {
+                                  "name": "isAutomatic",
+                                  "value": "False"
+                              },
+                              {
+                                  "name": "manager",
+                                  "value": "FLOWABLE"
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ]
+      }
+  ]
+}

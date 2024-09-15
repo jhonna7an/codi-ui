@@ -1,0 +1,49 @@
+<div hlmAccordionItem class="border-none">
+  <button hlmAccordionTrigger 
+    class="p-0 hover:no-underline border-b border-secondary-4" 
+    (click)="toggleAccordion()">
+    <div class="flex w-full max-h-[57px]">
+      <div class="flex items-center relative pl-4 pr-4">
+        <img [src]="product?.characteristic[0]?.value + '.svg'">
+        <!-- @if (_thirdOpened()) { -->
+          <div class="absolute top-3 right-2">
+            <img [src]="product?.code === '0' ? 'status-success.svg' : product?.code === '-1' ? 'status-danger.svg': product?.code === '2' ? 'status-warning.svg' : 'status-default.svg'" 
+              alt="product-status" class="w-[17px]">
+          </div>
+        <!-- } -->
+      </div>
+      <div class="flex items-center justify-between w-full">
+        <span class="text-secondary-4 font-semibold">{{ product?.name | uppercase }}</span>
+        <img class="p-5 transform transition-transform duration-200"
+          [class.rotate-180]="!_thirdOpened()"
+          src="chevron.svg">
+      </div>
+    </div>
+  </button>
+
+  <hlm-accordion-content>
+    @for (resource of product?.resource; track $index) {
+      <a class="min-h-[56px] flex align-middle w-ful cursor-pointer hover:bg-primary-5" 
+        [ngClass]="{ 'active': resourceIsActive(resource) }"
+        (click)="selectComponent(resource)">
+        <div class="flex items-center relative pl-4 pr-4">
+          <!-- <img class="ml-4 mr-4 fill-blue-500" [src]="false ? 'device.svg' : 'device-active.svg'"> -->
+          <svg width="24" height="17" viewBox="0 0 24 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="svg-active" d="M23.625 7.66667L19.25 1.375C18.875 0.875 18.2917 0.5 17.5833 0.5H6.375C5.66667 0.5 5.08333 0.875 4.70833 1.375L0.333333 7.66667C0.125 8 0 8.375 0 8.83333V14.5C0 15.625 0.875 16.5 2 16.5H22C23.0833 16.5 24 15.625 24 14.5V8.83333C24 8.41667 23.875 8 23.625 7.66667ZM6.375 2.5H17.5833L20.8333 7.16667H3.125L6.375 2.5ZM22 14.5H2V9.16667H22V14.5ZM20.6667 11.8333C20.6667 11.125 20.0417 10.5 19.3333 10.5C18.5833 10.5 18 11.125 18 11.8333C18 12.5833 18.5833 13.1667 19.3333 13.1667C20.0417 13.1667 20.6667 12.5833 20.6667 11.8333ZM16.6667 11.8333C16.6667 11.125 16.0417 10.5 15.3333 10.5C14.5833 10.5 14 11.125 14 11.8333C14 12.5833 14.5833 13.1667 15.3333 13.1667C16.0417 13.1667 16.6667 12.5833 16.6667 11.8333Z" fill="#F5F5F5"/>
+          </svg>
+            
+          <!-- @if (!_thirdOpened()) { -->
+            <div class="absolute top-3 right-2">
+              <img [src]="resource?.code === '0' ? 'status-success.svg' : resource?.code === '-1' ? 'status-danger.svg': resource?.code === '2' ? 'status-warning.svg' : 'status-default.svg'" 
+                alt="product-status" class="w-[17px]">
+            </div>
+          <!-- } -->
+        </div>
+        <div class="flex items-center justify-between w-full pr-2">
+          <span class="text-secondary-4 font-medium text-active">{{ resource?.name }}</span>
+          <img class="p-5" src="sidebar-home-chevron.svg">
+        </div>
+      </a>
+    }
+  </hlm-accordion-content>
+</div>

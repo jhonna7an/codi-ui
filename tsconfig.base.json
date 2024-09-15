@@ -1,0 +1,36 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2022",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@codi-front/codi-plus-shell": ["libs/codi-plus/shell/src/index.ts"],
+      "@codi-front/codi/shell": ["libs/codi/shell/src/index.ts"],
+      "@codi-front/header": ["libs/shared/components/header/src/index.ts"],
+      "@codi-front/shared/components/sidebar": [
+        "libs/shared/components/sidebar/src/index.ts"
+      ],
+      "@codi-front/shared/features/diagnostics": [
+        "libs/shared/features/diagnostics/src/index.ts"
+      ],
+      "@spartan-ng/ui-accordion-helm": [
+        "libs/shared/components/ui/spartan/ui-accordion-helm/src/index.ts"
+      ],
+      "@spartan-ng/ui-icon-helm": [
+        "libs/shared/components/ui/spartan/ui-icon-helm/src/index.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
